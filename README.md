@@ -7,7 +7,7 @@ Swara TTS is a text-to-speech model specifically designed for slokas, incorporat
 
 Here are the audio sources used in Swara TTS:
 
-| Name                                                                                                          | Youtube Video Link                                                                                                                                             | Reader Name       | Gender | Total Audio Duration |
+|Resource Name                                                                                                          | Resource URL                                                                                                                                             | Reader Name       | Gender | Total Audio Duration |
 | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- | ------ | -------------------- |
 | Bhagavad-gita Chant Series - Complete Version (youtube.com)                                                   | [Link](https://www.youtube.com/watch?v=E53GuZ8NFQw&ab_channel=BrajaBeats)                         | Unknown           | Female | 2:41:00              |
 | ShriMadh Bhagavad Gita Complete Recitation (01-18) \| Dr Vidyabhushana \| Geetopadesham - YouTube             | [Link](https://www.youtube.com/watch?v=tZxnilHN8EE&ab_channel=GaanasampadaDevotional) | Dr Vidyabhushana  | Male   | 2:35:24              |
