@@ -24,7 +24,6 @@ def download_audio_from_youtube(video_url, output_path='.', ffmpeg_location=None
 # List of YouTube video URLs
 video_urls = [
     'https://www.youtube.com/watch?v=E53GuZ8NFQw&ab_channel=BrajaBeats',
-    'https://www.youtube.com/watch?v=uip3DK9JVLU&ab_channel=ChinmayaChannel',
     'https://www.youtube.com/watch?v=tZxnilHN8EE&ab_channel=GaanasampadaDevotional',
     'https://www.youtube.com/watch?v=uYxt86Yk58w&ab_channel=Release-Topic',
     'https://www.youtube.com/watch?v=WITUOwi3EYk'
