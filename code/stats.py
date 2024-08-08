@@ -50,7 +50,7 @@ def compute_audio_duration(directory, file_type=".mp3"):  # Set the default file
     return results
 
 # Example usage
-directory = "./HolyGitaAudio"
+directory = "D:\MTP\Swami Paramarthananda"
 results = compute_audio_duration(directory)
 
 # Print the results
