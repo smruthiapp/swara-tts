@@ -25,3 +25,11 @@ Here are the text sources used in Swara TTS:
 | ------------------ | --------------------------------------------------- |
 | Holy Bhagavad Gita | [Link](https://www.holy-bhagavad-gita.org/)         |
 | Gita Supersite     | [Link](https://www.gitasupersite.iitk.ac.in/srimad) |
+
+
+## Contributors
+
+We welcome contributions from the community to enhance Swara TTS. If you would like to contribute, please follow the guidelines outlined in our [Contributing](CONTRIBUTING.md) document.
+
+Happy contributing!
+
