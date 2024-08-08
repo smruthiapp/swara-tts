@@ -17,13 +17,13 @@ def download_file(url, save_path):
 
 # Main function to download all slokas
 def download_all_slokas(base_url, chapters, slokas_per_chapter):
-    create_directory(f"./gitasupersite")
+    create_directory(f"./resources/gitasupersite")
     for chapter in tqdm(range(1, chapters + 1), desc="Chapters"):
         chapter_str = f"{chapter}"
         for sloka in tqdm(range(1, slokas_per_chapter[chapter - 1] + 1), desc=f"Chapter {chapter_str} Slokas", leave=False):
             sloka_str = f"{sloka}"
             url = f"{base_url}/CHAP{chapter_str}/{chapter_str}-{sloka_str}.MP3"
-            save_path = f"./gitasupersite/{chapter_str}-{sloka_str}.MP3"
+            save_path = f"./resources/gitasupersite/{chapter_str}-{sloka_str}.MP3"
             download_file(url, save_path)
 
 if __name__ == "__main__":

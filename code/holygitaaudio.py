@@ -13,7 +13,7 @@ headers = {
 }
 
 # Create a directory to save the audio files
-os.makedirs('HolyGitaAudio', exist_ok=True)
+os.makedirs('resources/HolyGitaAudio', exist_ok=True)
 
 # Function to download audio files
 def download_audio(audio_url, filename):
