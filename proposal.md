@@ -1,6 +1,6 @@
 # Swara TTS Research and Development Proposal
 
-## **Swara TTS: Prosody-Aware Sanskrit Chanting Model for Large-Scale Sloka Generation**
+## **Swara TTS: Prosody-Aware Sanskrit Speech Synthesis for Large-Scale Sloka Generation**
 
 **Proposed by:** Radhe Shyam Salopanthula (AI4Bharat)
 
