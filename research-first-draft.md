@@ -11,13 +11,12 @@ Sanskrit poetry is deeply rooted in structured metrical systems (Chandas) and to
 
 **3. System Architecture:**
 We experiment with three candidate models:
-
 - **F5**: A fast, lightweight generative TTS model
 - **VoiceCraft**: A zero-shot expressive voice synthesis framework
 - **Parler-TTS**: A high-quality, transformer-based TTS model
 
 **4. Data Preparation:**
-We curated a 64-hour dataset from the Rāmāyaṇa and Bhagavad Gītā, sourced from the audio alignment efforts by Avinash Varna & Hrishikesh Terdalkar and IITK’s Gita Supersite. The data includes time-aligned text, swara markings, and chandas annotations. Chandas distribution analysis revealed a heavy dominance of Anuṣṭubh, highlighting the need for a more balanced dataset for comprehensive chanting synthesis. Prosodic labels were manually verified and pitch contours extracted using advanced pitch-tracking algorithms.
+We curated a 64-hour dataset from the Rāmāyaṇa and Bhagavad Gītā, sourced from the audio alignment efforts by Avinash Varna & Hrishikesh Terdalkar and IITK’s Gita Supersite. The data includes time-aligned text, swara markings, and chandas annotations. Chandas distribution analysis revealed a heavy dominance of Anuṣṭubh, highlighting the need for a more balanced dataset for comprehensive chanting synthesis. For chandas labeling, we leveraged **Hrishikesh Terdalkar’s Chandojnanam**, an algorithm designed for Chandas identification of Sanskrit text. Prosodic labels were manually verified and pitch contours extracted using advanced pitch-tracking algorithms.
 
 **5. Training and Evaluation:**
 The models were fine-tuned and evaluated using objective metrics such as mel-cepstral distortion (MCD), F0 RMSE, and intelligibility scores. Subjective evaluations were conducted via Mean Opinion Score (MOS) ratings by Sanskrit scholars and trained chanters.
@@ -26,23 +25,21 @@ The models were fine-tuned and evaluated using objective metrics such as mel-cep
 Swara TTS demonstrated significant improvements in melodic alignment, chandas consistency, and naturalness of output. Among the three, [best-performing model] achieved the highest MOS and lowest distortion metrics.
 
 **7.  Tools and Applications Developed as Part of This Research:**
-
 - Laya: Audio-Text Alignment & Annotation Tool developed to enable precise synchronization and labeling for chanting synthesis.
-- Chandas-Sloka Visualizer: A tool to analyze and visualize chandas structures and their occurrence across the dataset.&#x20;
-- Smruthi: An interactive reading platform designed for end-user engagement with Itihāsas, Purāṇas, and Kāvya-s, powered by Swara TTS outputs.**Applications:**
+- Chandas-Sloka Visualizer: A tool to analyze and visualize chandas structures and their occurrence across the dataset.
+- Smruthi: An interactive reading platform designed for end-user engagement with Itihāsas, Purāṇas, and Kāvya-s, powered by Swara TTS outputs.
 
-8. **Potential Usecases:**
-
+**8. Potential Usecases:**
 - Audio rendering of śloka and classical texts
 - AI chanting tutors for education and learning
 - Archival voice synthesis of lost texts
 - Assistive tools for visually impaired users
 
+**9. Future Work:**
+The current dataset’s chandas sparsity necessitates further expansion. We propose building a comprehensive dataset—**SwaraSangraha**—with equitable distribution across major chandas through a combination of manual recordings and automated online discovery. This includes detailed chandas labeling (including guru-laghu mapping), swara labeling (via MIDI or pitch quantization), and robust audio-text alignment tools to support scalable and culturally accurate chanting synthesis.
 
+**10. Conclusion:**
+Swara TTS is a pioneering attempt to bring Sanskrit śloka chanting into the AI era. It bridges the gap between linguistic fidelity and musical expressiveness, setting a foundation for scalable and culturally faithful chanting synthesis systems.
 
-**9. Future Work:** The current dataset’s chandas sparsity necessitates further expansion. We propose building a comprehensive dataset—**SwaraSangraha**—with equitable distribution across major chandas through a combination of manual recordings and automated online discovery. This includes detailed chandas labeling (including guru-laghu mapping), swara labeling (via MIDI or pitch quantization), and robust audio-text alignment tools to support scalable and culturally accurate chanting synthesis.
-
-**10. Conclusion:** Swara TTS is a pioneering attempt to bring Sanskrit śloka chanting into the AI era. It bridges the gap between linguistic fidelity and musical expressiveness, setting a foundation for scalable and culturally faithful chanting synthesis systems.
-
-**Keywords:** Swara TTS, Chanting TTS, Sanskrit Prosody, Chandas, Swara, Voice Synthesis, F5, VoiceCraft, Parler-TTS, SwaraSangraha
+**Keywords:** Swara TTS, Chanting TTS, Sanskrit Prosody, Chandas, Swara, Voice Synthesis, F5, VoiceCraft, Parler-TTS, SwaraSangraha, Chandojnanam
 
